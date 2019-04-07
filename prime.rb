@@ -7,6 +7,8 @@ def prime?(n)
   
   while counter < n-1
     
+    n % counter
+    
     if (n % counter == 0) 
       puts false
       false
