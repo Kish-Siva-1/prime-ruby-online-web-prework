@@ -12,4 +12,6 @@ def prime?(n)
     end 
   end
 
+pry.binding
+
 end
