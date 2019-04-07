@@ -4,9 +4,8 @@ def prime?(n)
   
   while counter < n-1
     
-    if n % counter != 0
-        
-    
+    break if n % counter != 0
     counter += 1 
+  end
   
 end
