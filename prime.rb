@@ -10,8 +10,7 @@ def prime?(n)
     else
       return true # this means the number is prime
     end 
+    pry.binding
   end
-
-pry.binding
 
 end
