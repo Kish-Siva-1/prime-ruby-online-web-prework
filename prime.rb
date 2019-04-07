@@ -1,3 +1,5 @@
+require pry 
+
 def prime?(n)
   
   counter = 2
