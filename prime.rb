@@ -1,5 +1,4 @@
 require 'pry' 
-require 'prime'
 
 def prime?(n)
   
