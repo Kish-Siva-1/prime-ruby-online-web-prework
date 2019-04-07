@@ -6,14 +6,15 @@ def prime?(n)
   
   while counter < n-1
     
-    break if (n % counter != 1 || n % counter != n) 
+    if (n % counter != 1 || n % counter != n) 
+      false
+      break
+    else 
+      true
+    end
+    
     counter += 1 
-  end
   
-  if n % counter != 1
-    false
-  else
-    true
   end
     
 binding.pry
